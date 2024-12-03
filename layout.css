@@ -1,5 +1,5 @@
 html {
-  fint-size: 62.5%;
+  font-size: 62.5%;
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -26,12 +26,6 @@ p {
   flex-basis: 0; /* lasten mkknkmi leveyys */
   flex-grow: 1; /* lapset yhtä leveitä (flex-grow lapsissa sama) */
   order: 2; /* lasten järjestys */
-}
-
-.parent h1 {
-  flex-grow: 1;
-  flex-basis: 100%;
-  order: 1;
 }
 
 /* muutetaan sinisen kappaleen leveys kaksinkertaiseksi */
